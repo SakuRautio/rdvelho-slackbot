@@ -1,0 +1,21 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "slackbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "saku rautio",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "slackbots": "^1.2.0",
+    "snekfetch": "^4.0.4",
+    "ws": ">=3.3.1"
+  }
+}
